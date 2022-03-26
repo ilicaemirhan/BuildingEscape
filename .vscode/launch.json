@@ -1,0 +1,123 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "BuildingEscape (Debug)",
+            "request": "launch",
+            "preLaunchTask": "BuildingEscape Win64 Debug Build",
+            "program": "D:\\Users\\media markt\\Dropbox\\My PC (LAPTOP-2QPEC71K)\\Documents\\Unreal Projects\\BuildingEscape\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+            "args": [],
+            "cwd": "D:\\Program Files\\Epic Games\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "D:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "BuildingEscape (DebugGame)",
+            "request": "launch",
+            "preLaunchTask": "BuildingEscape Win64 DebugGame Build",
+            "program": "D:\\Users\\media markt\\Dropbox\\My PC (LAPTOP-2QPEC71K)\\Documents\\Unreal Projects\\BuildingEscape\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+            "args": [],
+            "cwd": "D:\\Program Files\\Epic Games\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "D:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "BuildingEscape (Development)",
+            "request": "launch",
+            "preLaunchTask": "BuildingEscape Win64 Development Build",
+            "program": "D:\\Users\\media markt\\Dropbox\\My PC (LAPTOP-2QPEC71K)\\Documents\\Unreal Projects\\BuildingEscape\\Binaries\\Win64\\UE4.exe",
+            "args": [],
+            "cwd": "D:\\Program Files\\Epic Games\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "D:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "BuildingEscape (Shipping)",
+            "request": "launch",
+            "preLaunchTask": "BuildingEscape Win64 Shipping Build",
+            "program": "D:\\Users\\media markt\\Dropbox\\My PC (LAPTOP-2QPEC71K)\\Documents\\Unreal Projects\\BuildingEscape\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+            "args": [],
+            "cwd": "D:\\Program Files\\Epic Games\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "D:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "BuildingEscape (Test)",
+            "request": "launch",
+            "preLaunchTask": "BuildingEscape Win64 Test Build",
+            "program": "D:\\Users\\media markt\\Dropbox\\My PC (LAPTOP-2QPEC71K)\\Documents\\Unreal Projects\\BuildingEscape\\Binaries\\Win64\\UE4-Win64-Test.exe",
+            "args": [],
+            "cwd": "D:\\Program Files\\Epic Games\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "D:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "BuildingEscapeEditor (Debug)",
+            "request": "launch",
+            "preLaunchTask": "BuildingEscapeEditor Win64 Debug Build",
+            "program": "D:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+            "args": [
+                "D:\\Users\\media markt\\Dropbox\\My PC (LAPTOP-2QPEC71K)\\Documents\\Unreal Projects\\BuildingEscape\\BuildingEscape.uproject"
+            ],
+            "cwd": "D:\\Program Files\\Epic Games\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "D:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "BuildingEscapeEditor (DebugGame)",
+            "request": "launch",
+            "preLaunchTask": "BuildingEscapeEditor Win64 DebugGame Build",
+            "program": "D:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+            "args": [
+                "D:\\Users\\media markt\\Dropbox\\My PC (LAPTOP-2QPEC71K)\\Documents\\Unreal Projects\\BuildingEscape\\BuildingEscape.uproject"
+            ],
+            "cwd": "D:\\Program Files\\Epic Games\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "D:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "BuildingEscapeEditor (Development)",
+            "request": "launch",
+            "preLaunchTask": "BuildingEscapeEditor Win64 Development Build",
+            "program": "D:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+            "args": [
+                "D:\\Users\\media markt\\Dropbox\\My PC (LAPTOP-2QPEC71K)\\Documents\\Unreal Projects\\BuildingEscape\\BuildingEscape.uproject"
+            ],
+            "cwd": "D:\\Program Files\\Epic Games\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "D:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "Generate Project Files",
+            "type": "clr",
+            "request": "launch",
+            "program": "D:\\Program Files\\Epic Games\\UE_4.27\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+            "console": "externalTerminal",
+            "args": [
+                "-projectfiles",
+                "-vscode",
+                "-project=D:\\Users\\media markt\\Dropbox\\My PC (LAPTOP-2QPEC71K)\\Documents\\Unreal Projects\\BuildingEscape\\BuildingEscape.uproject",
+                "-game",
+                "-engine"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+            "cwd": "D:\\Program Files\\Epic Games\\UE_4.27"
+        }
+    ]
+}
